@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <title><?php echo "Main page" ?></title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <?php $content = "Дорогой студент, мы рады приветствовать тебя в нашей школе программирования WOOPPAY SCHOOL. Здесь ты сможешь получить все необходымие навыки  и знания для верстки сайтов.
+
+                     В наших стенах работают профессионалы своего дела,которые имеют огромный практический опыт в создании сайтов. Поэтому мы сможете получать исключительно нужную и полезную информацию без 'воды'.
+
+                     Для того, чтобы записаться на курс, вам достаточно написать на почту courses@wooppay.com. В письме укажите ваше ФИО, номер телефона, а также желаемый курс."; ?>
+      <div class="container">  
+        <div class="menu-border">
+            <div class="menu">           
+               <strong>Меню</strong>
+               <ul> 
+                    <li><a href="MainPage.php" target="_self">Главная страница</a></li>
+                    <li><a href="Courses.php" target="_self">Курсы</a></li>
+                    <li><a href="AboutUs.php" target="_self">О нас</a></li>
+                    <li><a href="Prices.php">Цены на курсы</a></li>
+                    <li><a href="SignIn.php">Войти</a></li>
+                    <li><a href="Registration.php">Регистрация</a></li>
+                </ul>
+            </div>
+        </div>
+            <div class="text">
+                  <h1>Школа программирования WOOPPAY SCHOOL</h1>
+                  <?php echo $content;?>
+            </div>
+        </div>
+</body>
+</html>
