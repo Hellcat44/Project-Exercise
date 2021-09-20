@@ -1,8 +1,11 @@
+<?php include 'main.php'; ?>
+
+
 <!DOCTYPE html>
 <html>
 <head>
 	<meta charset="utf-8">
-	<title>AboutCSS</title>
+	<title><?=$names['a_css'] ?></title>
 	<link rel="stylesheet" href="style.css">
 </head>
 <body>

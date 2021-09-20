@@ -35,7 +35,7 @@
 	border: 2px solid #000;
 	height: 370px;
 	width: 400px;
-	padding-left: 10px;
+	padding-left: 5px;
 	padding-top: 5px;
 	display: inline-block;
 	vertical-align: top;
@@ -74,15 +74,15 @@ margin-left: 280px;
     margin-top: 15px;
     display: inline-block;
 }
+
 .search {
 	width: 1415px;
 	height: 55px;
 	border: 2px solid #000;
 	padding-top: 5px;
 	padding-left:10px ;
-	
+	}
 
-}
 .frame {
 	display: inline-block;
 }

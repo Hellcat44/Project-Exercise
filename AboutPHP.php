@@ -1,8 +1,10 @@
+<?php include 'main.php'; ?>
+
 <!DOCTYPE html>
 <html>
 <head>
 	<meta charset="utf-8">
-	<title><?php echo "About PHP" ?></title>
+	<title><?=$names['a_php'] ?></title>
 	<link rel="stylesheet" href="style.css">
 </head>
 <body>

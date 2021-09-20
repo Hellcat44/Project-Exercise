@@ -1,3 +1,5 @@
+<?php include 'main.php'; ?>
+
 <?php $content = "<h1>О нас</h1>
     <h1>
     wooppay | fintech
@@ -25,7 +27,7 @@
 <!DOCTYPE html>
 <html>
 <head>
-    <title><?php echo "About us" ?></title>
+    <title><?=$names['a_us'] ?></title>
     <link rel="stylesheet" href="style.css">
 </head>
 <body>

@@ -13,7 +13,7 @@ include 'main.php';
 <html>
 <head>
     <meta charset="utf-8">
-    <title><?= $main['main_page'] ?></title>
+    <title><?= $names['main_page'] ?></title>
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
