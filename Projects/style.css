@@ -1,0 +1,89 @@
+.container {
+	display: inline-block;
+	vertical-align: top;
+	float: left;
+
+
+}
+.menu {
+	border: 2px solid #000;
+	width: 392px;
+	height: 400px;
+	margin-top: 20px;
+	margin-left: 8px;
+	padding-left: 5px;
+	padding-top: 5px;
+}
+.menu-border {
+	border: 2px solid #000;
+	width: 420px;
+    height: 875px ;
+    display: inline-block;
+    vertical-align: top;
+}
+.text {
+	border: 2px solid #000;
+	width: 1400px;
+	height: 875px;
+	padding-left: 25px;
+	padding-top: 10px;
+    display: inline-block;
+    overflow: scroll;
+}
+
+.course {
+	border: 2px solid #000;
+	height: 370px;
+	width: 400px;
+	padding-left: 5px;
+	padding-top: 5px;
+	display: inline-block;
+	vertical-align: top;
+	margin-left: 10px;
+
+}
+.link {
+margin-left: 280px;
+}
+.table {
+	margin-top:10px ;
+}
+.rg1 {
+	margin-top: 40px;
+}
+.window {
+	border: 2px solid #000 ;
+	width: 400px;
+	height: 400px;
+	margin-top: 10px;
+	padding-left: 10px;
+	padding-top: 5px;
+	
+}
+.cr1{
+    height: 220px;
+    overflow: hidden;
+}
+
+.cborder {
+	border: 2px solid #000;
+	width: 1400px;
+	height: 785px;
+	padding-left: 25px;
+	padding-top: 10px;
+    overflow: scroll;
+    margin-top: 15px;
+    display: inline-block;
+}
+
+.search {
+	width: 1415px;
+	height: 55px;
+	border: 2px solid #000;
+	padding-top: 5px;
+	padding-left:10px ;
+	}
+
+.frame {
+	display: inline-block;
+}
