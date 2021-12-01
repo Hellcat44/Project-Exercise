@@ -1,5 +1,5 @@
 <?php
-include '../Config/main.php';
+include 'Config/main.php';
 ?>
 
 
@@ -12,16 +12,19 @@ include '../Config/main.php';
 </head>
 <body>
 <div class="container">
+          <div class="banner">
+          </div>
+<div class="frame">
 <div class="menu-border">
             <div class="menu">           
                <strong>Меню</strong>
                <ul> 
-                    <li><a href="MainPageController.php" target="_self">Главная страница</a></li>
-                    <li><a href="CoursesController.php" target="_self">Курсы</a></li>
-                    <li><a href="AboutUsController.php" target="_self">О нас</a></li>
-                    <li><a href="PricesController.php">Цены на курсы</a></li>
-                    <li><a href="SignInController.php">Войти</a></li>
-                    <li><a href="RegistrationController.php">Регистрация</a></li>
+                    <li><a href="main" target="_self">Главная страница</a></li>
+                    <li><a href="courses" target="_self">Курсы</a></li>
+                    <li><a href="about" target="_self">О нас</a></li>
+                    <li><a href="prices">Цены на курсы</a></li>
+                    <li><a href="sign">Войти</a></li>
+                    <li><a href="reg">Регистрация</a></li>
                 </ul>
             </div>
         </div>
@@ -34,6 +37,7 @@ include '../Config/main.php';
                   <p>Термин «каскадные таблицы стилей» был предложен Хоконом Ли в 1994 году. Совместно с Бертом Босом он стал развивать CSS.</p>
                   <p>В середине 1990-х Консорциум Всемирной паутины (W3C) стал проявлять интерес к CSS, и в декабре 1996 года была издана рекомендация CSS1.</p>
             </div>
+</div>
 </div>
 </body>
 </html>

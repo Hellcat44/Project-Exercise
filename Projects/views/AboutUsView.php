@@ -1,5 +1,5 @@
 <?php
-include '../Config/main.php';
+include 'Config/main.php';
 ?>
 
 <?php $content = "<h1>О нас</h1>
@@ -34,22 +34,25 @@ include '../Config/main.php';
 </head>
 <body>
 <div class="container">
-<div class="menu-border">
+          <div class="banner">
+          </div>
+   <div class="frame">
+        <div class="menu-border">
             <div class="menu">           
                <strong>Меню</strong>
-               <ul> 
-                    <li><a href="MainPageController.php" target="_self">Главная страница</a></li>
-                    <li><a href="CoursesController.php" target="_self">Курсы</a></li>
-                    <li><a href="AboutUsController.php" target="_self">О нас</a></li>
-                    <li><a href="PricesController.php">Цены на курсы</a></li>
-                    <li><a href="SignInController.php">Войти</a></li>
-                    <li><a href="RegistrationController.php">Регистрация</a></li>
+                <ul> 
+                    <li><a href="main" target="_self">Главная страница</a></li>
+                    <li><a href="courses" target="_self">Курсы</a></li>
+                    <li><a href="about" target="_self">О нас</a></li>
+                    <li><a href="price">Цены на курсы</a></li>
+                    <li><a href="sign">Войти</a></li>
+                    <li><a href="reg">Регистрация</a></li>
                 </ul>
             </div>
-</div>
+        </div>
 <div class="text">
     <?php echo $content;?>
-    
+</div>
 </div>
 </div>
 </body>

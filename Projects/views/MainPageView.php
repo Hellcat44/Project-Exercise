@@ -4,7 +4,7 @@
      <p>Для того, чтобы записаться на курс, вам достаточно написать на почту courses@wooppay.com. В письме укажите ваше ФИО, номер телефона, а также желаемый курс. </p>"; ?>
 
 <?php
-include '../Config/main.php';
+include 'Config/main.php';
 ?>
 
 
@@ -18,23 +18,27 @@ include '../Config/main.php';
 </head>
 <body>
       <div class="container">  
-        <div class="menu-border">
-            <div class="menu">           
-               <strong>Меню</strong>
-               <ul> 
-                    <li><a href="MainPageController.php" target="_self">Главная страница</a></li>
-                    <li><a href="CoursesController.php" target="_self">Курсы</a></li>
-                    <li><a href="AboutUsController.php" target="_self">О нас</a></li>
-                    <li><a href="PricesController.php">Цены на курсы</a></li>
-                    <li><a href="SignInController.php">Войти</a></li>
-                    <li><a href="RegistrationController.php">Регистрация</a></li>
-                </ul>
+          <div class="banner">
+          </div>
+         <div class="frame"> 
+            <div class="menu-border">
+                <div class="menu">           
+                    <strong>Меню</strong>
+                    <ul> 
+                    <li><a href="main" target="_self">Главная страница</a></li>
+                    <li><a href="courses" target="_self">Курсы</a></li>
+                    <li><a href="about" target="_self">О нас</a></li>
+                    <li><a href="price" target="_self">Цены на курсы</a></li>
+                    <li><a href="sign" target="_self">Войти</a></li>
+                    <li><a href="reg" target="_self">Регистрация</a></li>
+                    </ul>
+                </div>
             </div>
-        </div>
-            <div class="text">
-                  <h1>Школа программирования WOOPPAY SCHOOL</h1>
-                  <?php echo $content;?>
-            </div>
+                    <div class="text">
+                          <h1>Школа программирования WOOPPAY SCHOOL</h1>
+                          <?php echo $content;?>
+                    </div>
+          </div>  
         </div>
 </body>
 </html>
