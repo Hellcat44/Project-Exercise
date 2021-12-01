@@ -1,6 +1,7 @@
 <?php
-require "../services/ViewService.php";
-$content = view("Courses");
-echo $content;
+require "services/ViewService.php";
+$content = new ViewService();
+
+echo $content-> view("Courses");
 
 ?>
