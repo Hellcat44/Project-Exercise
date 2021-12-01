@@ -1,9 +1,12 @@
 <?php 
-function view(string $name) : string
+class ViewService
 {
-$name1 = $name . "View.php";
-return include "../views/$name1";
+    
+    public function view(string $name): string
+    {
+        $name1 = $name . "View.php";
+        return include "views/$name1";
+    }
 }
 
  ?>
-
